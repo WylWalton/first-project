@@ -12,7 +12,11 @@ def function3():
 
 
 def function4():
-    print('This text represent the content of function 4')  #To be edited by member 4, Replace this line with your actual function code
+    x = 6 
+    y = 4
+    'Comparison；x>y = 6>4'
+    print(x>y)
+    print('Therefore, x is larger than y')  #To be edited by member 4, Replace this line with your actual function code
 
 
 #The Main function edited by Group leader
