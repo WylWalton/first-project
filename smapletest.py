@@ -331,13 +331,15 @@ def main():
         ox.append(-10.0)
         oy.append(i)
 
-    for i in range(-10, 30): # draw the free border
-        ox.append(20.0)
-        oy.append(i)
-
-    for i in range(0, 20):
+    for i in range(-10, 50): # draw the free border
         ox.append(i)
-        oy.append(-1 * i + 10)
+        oy.append(10.0)
+
+    for i in range(10, 60): # draw the free border
+        ox.append(i)
+        oy.append(40.0)
+
+
     
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
@@ -346,15 +348,15 @@ def main():
     
     # set fuel consuming area
     fc_x, fc_y = [], []
-    for i in range(30, 35):
-        for j in range(0, 40):
+    for i in range(15, 30):
+        for j in range(20, 40):
             fc_x.append(i)
             fc_y.append(j)
     
     # set time consuming area
     tc_x, tc_y = [], []
-    for i in range(10, 20):
-        for j in range(20, 50):
+    for i in range(20, 35):
+        for j in range(42, 55):
             tc_x.append(i)
             tc_y.append(j)
 
