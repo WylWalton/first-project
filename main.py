@@ -1,5 +1,6 @@
 def function1():
-    print('This text represent the content of function 1')  #To be edited by member 1, Replace this line with your actual function code
+    print("This is ENG1003's first Tuturial Programing Task \nEnter the fuction to be excute:")
+    print("YAN\nHim\nIan\nWalton\nRonald")
     
 
 def function2():
