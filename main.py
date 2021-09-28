@@ -8,7 +8,7 @@ def function2():
 
 
 def function3():
-    a=5 
+    a = 5 
     print('a = '+str(a)+'the quarter of a is '+str(a*a))
 
 def function4():
