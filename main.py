@@ -15,10 +15,10 @@ def function4():
     x = 6 
     y = 4
     print('a = '+str(x)+' b = '+str(y))
-    if x>y :
-        print('x is larger than y')
+    if x>y:
+        print('a is larger than b')
     else:
-        print('y is larger than x')  #To be edited by member 4, Replace this line with your actual function code
+        print('b is larger than a')  #To be edited by member 4, Replace this line with your actual function code
 
 
 #The Main function edited by Group leader
