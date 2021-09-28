@@ -9,14 +9,16 @@ def function2():
 
 def function3():
     a = 5 
-    print('a = '+str(a)+' , Square of a is '+str(a*a))
+    print('a = '+str(a)+' , Square of a:  '+str(a*a))
 
 def function4():
     x = 6 
     y = 4
-    'Comparison；x>y = 6>4'
-    print(x>y)
-    print('Therefore, x is larger than y')  #To be edited by member 4, Replace this line with your actual function code
+    print('a = '+str(x)+' b = '+str(y))
+    if x>y :
+        print('x is larger than y')
+    else:
+        print('y is larger than x')  #To be edited by member 4, Replace this line with your actual function code
 
 
 #The Main function edited by Group leader
